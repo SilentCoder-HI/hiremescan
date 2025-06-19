@@ -21,6 +21,7 @@ import {
 import { Badge } from "@/components/ui/badge"
 import { Progress } from "@/components/ui/progress"
 import { Footer } from "@/components/footer"
+import { Header } from "@/components/header"
 
 interface AnalysisResult {
   overallScore: number
@@ -90,7 +91,7 @@ export default function HireMeScan() {
         <div className="absolute -bottom-40 -left-40 w-80 h-80 bg-blue-500 rounded-full mix-blend-multiply filter blur-xl opacity-20 animate-blob animation-delay-2000"></div>
         <div className="absolute top-40 left-40 w-80 h-80 bg-pink-500 rounded-full mix-blend-multiply filter blur-xl opacity-20 animate-blob animation-delay-4000"></div>
       </div>
-
+      <Header />
       <div className="relative z-10">
         <div className="container mx-auto px-4 py-12">
           {/* Enhanced Header */}
