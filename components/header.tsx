@@ -23,7 +23,7 @@ export function Header() {
         >
             <div className="relative container mx-auto px-6 py-5 flex flex-col md:flex-row items-center justify-between">
                 {/* Logo and Title */}
-                <Link href="#" className="flex items-center gap-3 group">
+                <Link href="/" className="flex items-center gap-3 group">
                     <div className="relative">
                         <div className="absolute inset-0 rounded-full bg-gradient-to-r from-blue-600 to-purple-600 blur opacity-50 animate-pulse" />
                         <div className="relative" />
