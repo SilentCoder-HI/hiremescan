@@ -15,7 +15,7 @@ export function Footer() {
             </div>
             <div className="space-y-2">
               <h4 className="text-2xl font-bold bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
-                Alex Johnson
+                Hussnain Ali
               </h4>
               <p className="text-gray-400">Full-Stack Developer & AI Enthusiast</p>
               <p className="text-sm text-gray-500 leading-relaxed">
@@ -69,7 +69,7 @@ export function Footer() {
             </div>
             <div className="space-y-3">
               <a
-                href="https://github.com/alexjohnson"
+                href="https://github.com/SilentCoder-HI/"
                 className="flex items-center gap-3 text-gray-400 hover:text-white transition-colors group"
               >
                 <Github className="h-5 w-5 group-hover:scale-110 transition-transform" />
@@ -96,7 +96,17 @@ export function Footer() {
                 <Mail className="h-5 w-5 group-hover:scale-110 transition-transform" />
                 <span>Email</span>
               </a>
+              <a
+                href="https://silentcoder-portfolio.vercel.app/"
+                className="flex items-center gap-3 text-gray-400 hover:text-green-400 transition-colors group"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Code className="h-5 w-5 group-hover:scale-110 transition-transform" />
+                <span>Portfolio</span>
+              </a>
             </div>
+
           </div>
         </div>
 
