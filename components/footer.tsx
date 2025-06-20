@@ -2,8 +2,8 @@ import { Github, Linkedin, Twitter, Mail, Heart, Code, Sparkles } from "lucide-r
 
 export function Footer() {
   return (
-    <footer className="relative mt-20 bg-black/20 backdrop-blur-lg border-t border-white/10">
-      <div className="container mx-auto px-4 py-12">
+    <footer className="relative mt-20  bg-black/20 backdrop-blur-lg border-t border-white/10">
+      <div className="w-full max-w-screen-xl mx-auto px-6 relative z-10 py-12">
         <div className="grid md:grid-cols-3 gap-8">
           {/* Creator Info */}
           <div className="space-y-4">
