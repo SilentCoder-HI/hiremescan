@@ -2,7 +2,7 @@ import axios from "axios"
 import { analysisSchema, type ParsedAnalysis } from "@/lib/analysis-schema"
 
 const GROQ_API_URL = "https://api.groq.com/openai/v1/chat/completions"
-const DEFAULT_MODEL = "qwen/qwen3.8-27b"
+const DEFAULT_MODEL = "openai/gpt-oss-20b"
 
 export class AnalysisConfigError extends Error {
   constructor() {

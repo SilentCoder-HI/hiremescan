@@ -61,7 +61,7 @@ Open <http://localhost:3000>.
 | Variable | Required | Description |
 | --- | --- | --- |
 | `GROQ_API_KEY` | No | Enables live AI analysis. Without it, the sample/demo flow still works. |
-| `GROQ_MODEL` | No | Defaults to `llama-3.3-70b-versatile`. |
+| `GROQ_MODEL` | No | Defaults to `openai/gpt-oss-20b`. |
 | `NEXT_PUBLIC_CONTACT_EMAIL` | No | Address shown on the contact page and used by the mailto form. |
 
 ## Pages
